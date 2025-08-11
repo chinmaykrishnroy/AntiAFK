@@ -1,5 +1,5 @@
 # 🖱️ AntiAFK
-**Anti-AFK** – Keeps you “active” so your green dot never takes a coffee break.  
+**Anti-AFK** - Keeps you “active” so your green dot never takes a coffee break.  
 Perfect for corporate warriors, remote ninjas, and anyone whose status must scream “I’m here!” even when you’re making coffee.
 
 ```
@@ -24,14 +24,14 @@ Just double-click **`install.bat`** — it’s your one-stop shop:
 - Installs all the dependencies from `requirements.txt`  
 - Launches the app so your mouse wiggles while you’re “working”  
 
-You’ll see a **black square with a red circle** in your system tray — that’s AntiAFK.  
-You can close the terminal after it starts; the tray icon means it’s running.
+You’ll see a **black square with a red circle** in your system tray - that’s AntiAFK.  
+Can you close the terminal after it starts? NOT NOW (follow step 3); the tray icon means it’s running.
 
 ---
 
 ### 3️⃣ Create a shortcut
-Double-click **`createshortcut.bat`** — this drops a handy shortcut right in your project folder.  
-Now you can start AntiAFK without touching the terminal ever again.
+Double-click **`createshortcut.bat`** - this drops a handy shortcut right in your project folder.  
+Now you can start AntiAFK without touching the terminal ever again using that shortcut.
 
 ---
 
@@ -42,7 +42,7 @@ Now you can start AntiAFK without touching the terminal ever again.
    shell:startup
    ```
 3. Paste your AntiAFK shortcut into that folder.  
-Boom — it runs automatically whenever your PC starts. Your green dot will never sleep again.
+Boom - it runs automatically whenever your PC starts. Your green dot will never sleep again.
 
 ---
 
@@ -75,7 +75,7 @@ You can tweak these values to be *subtle as a spy* or *hyperactive like a squirr
 ---
 
 ## 🏢 Corporate Survival Tips
-- Never let the green dot fade — it’s a sign of weakness.  
+- Never let the green dot fade - it’s a sign of weakness.  
 - Keep a random spreadsheet open for camouflage.  
 - Occasionally nod at the screen to sell the illusion.  
 - Use “In a meeting” as your second shield.

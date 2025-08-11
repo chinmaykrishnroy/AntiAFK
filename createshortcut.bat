@@ -5,7 +5,7 @@ setlocal
 set "PROJECT_DIR=%~dp0"
 set "TARGET_PATH=%PROJECT_DIR%quickrun.bat"   :: Path to the batch file you want to hide and run
 set "ICON_PATH=%PROJECT_DIR%icon"             :: Path to the icon file in the current directory
-set "SHORTCUT_NAME=act"
+set "SHORTCUT_NAME=AntiAFK"
 set "SHORTCUT_PATH=%PROJECT_DIR%%SHORTCUT_NAME%.lnk"
 set "VBS_PATH=%PROJECT_DIR%hideWindowsTerminal.vbs"  :: Path to the external VBS script
 set "VENV_DIR=%PROJECT_DIR%venv"
@@ -19,7 +19,7 @@ if not exist "%VBS_PATH%" (
 :: Ensure the virtual environment exists
 if not exist "%VENV_DIR%\Scripts\python.exe" (
     echo Error: Virtual environment not found in %VENV_DIR%.
-    echo Please run run.bat first to set up dependencies.
+    echo Please run install.bat first to set up dependencies.
     exit /b 1
 )
 
