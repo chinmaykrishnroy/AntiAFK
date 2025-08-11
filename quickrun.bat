@@ -17,8 +17,8 @@ set "VENV_DIR=%PROJECT_DIR%venv"
 
 :: Check if the virtual environment directory exists
 if not exist "%VENV_DIR%\Scripts\python.exe" (
-    echo Virtual environment not found. Running run.bat to create it...
-    call "%PROJECT_DIR%run.bat"
+    echo Virtual environment not found. Running install.bat to create it...
+    call "%PROJECT_DIR%install.bat"
     exit /b
 )
 
